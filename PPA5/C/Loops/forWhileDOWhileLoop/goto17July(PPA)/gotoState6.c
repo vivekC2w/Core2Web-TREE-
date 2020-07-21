@@ -1,0 +1,36 @@
+
+
+#include<stdio.h>
+
+void main() {
+
+        int x = 10;
+        int i = 1;
+        fordemo:
+                printf("printing........\n");
+
+        for(; i<=x; ) {
+		
+		i++;
+                goto fordemo;
+
+        }
+	printf("After goto statement\n");
+
+}
+/*
+vivek@vivek-HIRAY:~/PPA5/C/Loops/forWhileDOWhileLoop/goto17July(PPA)$ cc gotoState6.c
+vivek@vivek-HIRAY:~/PPA5/C/Loops/forWhileDOWhileLoop/goto17July(PPA)$ ./a.out 
+printing........
+printing........
+printing........
+printing........
+printing........
+printing........
+printing........
+printing........
+printing........
+printing........
+printing........
+After goto statement
+ */
